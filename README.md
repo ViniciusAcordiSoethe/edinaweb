@@ -31,8 +31,13 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 Objetivos: 
 
-- Pegar cor da 3 ft do insta e usar como base [colors.co](https://coolors.co/generate)
+- Pegar cor da 3 ft do insta e usar como base [peleta escolhida](https://coolors.co/0d1b2a-1b263b-236242-778da9-eb6424)
 - elencar categorias / relacionados a sisan GPT
 - pesquisar exemplos de portifolio layout
 - quem é o portifolio
 - preparar icons (https://react-icons.github.io)
+
+
+cor 
+
+https://coolors.co/0d1b2a-1b263b-236242-778da9-eb6424
