@@ -20,12 +20,12 @@ export default function Home() {
                 </a>
               </li>
               <li className='mr-6'>
-                <a href='https://api.whatsapp.com/send?phone=554796742664' target='_blank' className='text-white hover:text-custom-light-blue'>
+                <a href='#' target='_blank' className='text-white hover:text-custom-light-blue'>
                   <BsFacebook />
                 </a>
               </li>
               <li className='mr-6'>
-                <a href='#' target='_blank' className='text-white hover:text-custom-light-blue'>
+                <a href='https://api.whatsapp.com/send?phone=554796742664' target='_blank' className='text-white hover:text-custom-light-blue'>
                   <BsWhatsapp />
                 </a>
               </li>
@@ -41,7 +41,7 @@ export default function Home() {
             <p>Idealizadora do Instituto de Soberania e Segurança Alimentar e Nutricional- ISSAN</p>
             {/* Aviso Site */}
             <p className='text-5xl mb-2 mt-6'>Site em Construção</p>
-            <p>Tente contato pelo WhatApp</p><a href='https://api.whatsapp.com/send?phone=554796742664' className='text-5xl text-black hover:text-custom-green flex justify-center mt-6'><BsWhatsapp /></a>
+            <p>Tente contato pelo WhatApp</p><a href='https://api.whatsapp.com/send?phone=554796742664' target='_blank' className='text-5xl text-black hover:text-custom-green flex justify-center mt-6'><BsWhatsapp /></a>
             <img className="mb-12 mt-12 mx-auto block" src="/avatar.jpg" alt="avatar image" />
           </div>
           
