@@ -14,7 +14,9 @@ const config: Config = {
         'custom-light-blue': '#778DA9',
         'custom-green': '#236242',
         'custom-orange': '#EB6424',
-        
+      },
+      fontFamily: {
+        burtuns: 'burtuns',
       },
     },
   },
