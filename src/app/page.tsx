@@ -24,12 +24,12 @@ export default function Home() {
                 </a>
               </li>
               <li className='mr-6'>
-                <a href='#' target='_blank' className='text-white hover:text-custom-light-blue'>
+                <a href='#'className='text-white hover:text-custom-light-blue'>
                   <BsFacebook />
                 </a>
               </li>
               <li className='mr-6'>
-                <a href='#' target='_blank' className='text-white hover:text-custom-light-blue'>
+                <a href='#' className='text-white hover:text-custom-light-blue'>
                   <BsLinkedin />
                 </a>
               </li>
@@ -49,6 +49,7 @@ export default function Home() {
             <p className='mb-4'>Assessoria e Consultoria em <span className='text-custom-orange'>SISAN</span></p>
             <p className='leading-8 mb-6'>Idealizadora do Instituto de Soberania e Segurança Alimentar e Nutricional- ISSAN</p>
             <Image src={avatar} alt="avatar image" className='rounded-full mx-auto block' />
+            <h2 className='text-2xl'>Site em construção</h2>
           </div>
         </section>
 
