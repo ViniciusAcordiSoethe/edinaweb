@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import avatar from '/public/avatar.jpg';
 
-import { BsFacebook, BsFillMoonStarsFill , BsInstagram , BsLinkedin, BsWhatsapp } from 'react-icons/bs'
+import { BsFillMoonStarsFill , BsInstagram , BsLinkedin, BsWhatsapp } from 'react-icons/bs'
 import { AiOutlineHome } from "react-icons/ai";
 
 export default function Home() {
@@ -43,7 +43,7 @@ export default function Home() {
             <h1 className='text-5xl py-2 mb-5 text-custom-green font-burtuns'>Edina Acordi</h1>
             <p className='mb-4'>Assessoria e Consultoria em <span className='text-custom-orange'>SISAN</span></p>
             <p className='leading-8 mb-6'>Idealizadora do Instituto de Soberania e Segurança Alimentar e Nutricional- ISSAN</p>
-            <Image src={avatar} alt="avatar image" className='rounded-full mx-auto block w-full md:w-1/2 lg:w-1/3' />
+            <Image src={avatar} alt="Edina Acordi Imagem Demonstrativa" className='rounded-full mx-auto block w-full md:w-1/2 lg:w-1/3' />
           </div>
         </section>
 
