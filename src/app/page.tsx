@@ -49,11 +49,11 @@ export default function Home() {
 
         <section className='md:flex md:flex-col md:justify-center'>
           <div className='text-center p-10 md:mx-40'>
-            <h3 className='mb-4'>Oque é <span className='text-custom-orange'>SISAN</span> ?</h3>
+            <h3 className='mb-4'>O que é <span className='text-custom-orange'>SISAN</span>?</h3>
             <p className='text-justify'>O Sistema Nacional de Segurança Alimentar e Nutricional (SISAN) é um sistema em construção, que tem por objetivo assegurar o direito humano à alimentação adequada, promovendo a realização de ações de alimentação e nutrição em todo o território nacional e em todos os níveis de governo.</p>
           </div>
           <div className='text-center p-10 md:mx-40'>
-            <h3 className='mb-4'>Porque preciso de um <span className='text-custom-orange'>SISAN</span> ?</h3>
+            <h3 className='mb-4'>Por que preciso de um <span className='text-custom-orange'>SISAN</span>?</h3>
             <p className='text-justify'>A implementação de um SISAN forte é uma estratégia inteligente para o estado ou município, já que promove o desenvolvimento econômico, a saúde da população, a resiliência a crises, a sustentabilidade ambiental, a redução da pobreza, o controle eficaz de recursos públicos e a colaboração entre diferentes partes interessadas. Isso cria um ambiente propício para um estado mais próspero e equitativo, beneficiando tanto o governo quanto a população em geral.</p>            
           </div>
         </section>
