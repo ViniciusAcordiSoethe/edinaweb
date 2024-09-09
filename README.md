@@ -1,43 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Projeto de Prática com CSS, React e Tailwind
 
-## Getting Started
+Este projeto foi criado para praticar CSS e React com Tailwind CSS. Além disso, ele serve como um site personalizado para minha mãe e está hospedado gratuitamente na Vercel. Este projeto também funciona como uma amostra para currículos.
 
-First, run the development server:
+## Tecnologias Utilizadas
 
-```zsh
-npm run dev
-```
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário, conhecida por sua eficiência e modularidade.
+- **Tailwind CSS**: Framework de CSS utilitário que facilita a criação de designs personalizados com classes predefinidas.
+- **Vercel**: Plataforma de hospedagem para projetos React, oferecendo deploy gratuito e suporte para CI/CD.
+- **GitHub Actions**: Automatiza o fluxo de trabalho de deploy, atualizando o site automaticamente sempre que há um push no repositório.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Instruções para Iniciar o Projeto
 
-You can start editing the page by modifying `src/app/page.tsx`. The page auto-updates as you edit the file.
+1. **Instale as dependências**:
+   ```bash
+   npm install
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. **Instale as dependências**:
 
-## Learn More
+    Copie o arquivo `.env-example` e renomeie-o para `.env`.
+    Preencha os dados necessários no arquivo `.env`.
 
-To learn more about Next.js, take a look at the following resources:
+3. **Inicie o projeto em ambiente de desenvolvimento**:
+   ```bash
+   npm run dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deploy Automático
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+O deploy é automatizado através do GitHub Actions. Sempre que há uma alteração no repositório, uma nova build é criada e o site é automaticamente atualizado na Vercel.
 
-## Deploy on Vercel
+<hr>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-Objetivos: 
-
-- Pegar cor da 3 ft do insta e usar como base [peleta escolhida](https://coolors.co/0d1b2a-1b263b-236242-778da9-eb6424)
-- elencar categorias / relacionados a sisan GPT
-- pesquisar exemplos de portifolio layout
-- quem é o portifolio
-- preparar icons (https://react-icons.github.io)
-
-
-cor 
-
-https://coolors.co/0d1b2a-1b263b-236242-778da9-eb6424
+Se seus pais também estão precisando de um site parecido, fique à vontade para dar um `git clone` e adaptar para eles! 😄
