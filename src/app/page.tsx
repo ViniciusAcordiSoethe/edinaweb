@@ -5,6 +5,8 @@ import avatar from '/public/avatar.jpg';
 import { BsFillMoonStarsFill , BsInstagram , BsLinkedin, BsWhatsapp } from 'react-icons/bs'
 import { AiOutlineHome } from "react-icons/ai";
 
+import WhatsAppContact from './components/whatsText';
+
 export default function Home() {
   return (
     <main>
@@ -29,7 +31,7 @@ export default function Home() {
                 </a>
               </li>
               <li className='mr-6'>
-                <a href='https://api.whatsapp.com/send?phone=554796742664' target='_blank' className='text-white hover:text-custom-light-blue'>
+               <a href={`https://api.whatsapp.com/send?phone=${process.env.NEXT_PUBLIC_CELLPHONE_NUMBER}`}  target='_blank' className='text-white hover:text-custom-light-blue'>
                   <BsWhatsapp />
                 </a>
               </li>
@@ -55,6 +57,16 @@ export default function Home() {
           <div className='text-center p-10 md:mx-40'>
             <h3 className='mb-4'>Por que preciso de um <span className='text-custom-orange'>SISAN</span>?</h3>
             <p className='text-justify'>A implementação de um SISAN forte é uma estratégia inteligente para o estado ou município, já que promove o desenvolvimento econômico, a saúde da população, a resiliência a crises, a sustentabilidade ambiental, a redução da pobreza, o controle eficaz de recursos públicos e a colaboração entre diferentes partes interessadas. Isso cria um ambiente propício para um estado mais próspero e equitativo, beneficiando tanto o governo quanto a população em geral.</p>            
+          </div>
+          <div className='text-center p-10 md:mx-40'>
+            <h3 className='mb-4'>Resultados de um <span className='text-custom-orange'>SISAN</span> eficaz</h3>
+            <p className='text-justify'>Um SISAN bem estruturado pode resultar em melhorias significativas nos indicadores de saúde e nutrição, como a redução da desnutrição infantil, o combate à obesidade e o aumento do acesso a alimentos saudáveis. Além disso, contribui para a segurança alimentar das futuras gerações, garantindo que todos tenham acesso a uma alimentação adequada e nutritiva.</p>            
+          </div>
+        </section>
+
+        <section className='md:flex md:flex-col md:justify-center'>
+          <div className='text-center p-10 md:mx-40'>
+            <WhatsAppContact />
           </div>
         </section>
     </main>
