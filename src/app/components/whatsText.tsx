@@ -15,7 +15,7 @@ const WhatsAppContact = () => {
   };
 
 
-  const handleVerify = (token: string) => {
+  const handleVerify = (token: string | null) => {
     if (token) {
       setIsVerified(true);
     }
@@ -37,14 +37,14 @@ const WhatsAppContact = () => {
         value={message}
         onChange={handleMessageChange}
         placeholder="Digite sua mensagem aqui..."
-        rows="4"
-        cols="50"
+        rows={4}
+        cols={50}
         className="mb-4 p-4 border border-green-500 bg-green-100 rounded-lg shadow-lg resize-none"
         style={{ borderTopRightRadius: '0' }}
       />
       <div className="mb-4">
         <ReCAPTCHA
-          sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
+          sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ''}
           onChange={handleVerify}
         />
       </div>
