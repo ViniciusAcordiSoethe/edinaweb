@@ -10,11 +10,12 @@ const WhatsAppContact = () => {
   const [message, setMessage] = useState('');
   const [isVerified, setIsVerified] = useState(false);
 
-  const handleMessageChange = (event) => {
+  const handleMessageChange = (event: React.ChangeEvent<HTMLTextAreaElement>) => {
     setMessage(event.target.value);
   };
 
-  const handleVerify = (token) => {
+
+  const handleVerify = (token: string) => {
     if (token) {
       setIsVerified(true);
     }
