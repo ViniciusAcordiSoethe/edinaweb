@@ -22,12 +22,14 @@ const WhatsAppContact = () => {
   };
 
   const handleSubmit = () => {
-    if (!isVerified) {
-      const whatsappURL = `https://api.whatsapp.com/send?phone=${process.env.NEXT_PUBLIC_CELLPHONE_NUMBER}&text=${encodeURIComponent(message)}`;
+    const whatsappURL = `https://api.whatsapp.com/send?phone=${process.env.NEXT_PUBLIC_CELLPHONE_NUMBER}&text=${encodeURIComponent(message)}`;
       window.open(whatsappURL, '_blank');
-    } else {
-      alert("Por favor, verifique que você não é um robô.");
-    }
+    // if (isVerified) {
+    //   const whatsappURL = `https://api.whatsapp.com/send?phone=${process.env.NEXT_PUBLIC_CELLPHONE_NUMBER}&text=${encodeURIComponent(message)}`;
+    //   window.open(whatsappURL, '_blank');
+    // } else {
+    //   alert("Por favor, verifique que você não é um robô.");
+    // }
   };
 
   return (
@@ -43,10 +45,10 @@ const WhatsAppContact = () => {
         style={{ borderTopRightRadius: '0' }}
       />
       <div className="mb-4">
-        <ReCAPTCHA
+        {/* <ReCAPTCHA
           sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ''}
           onChange={handleVerify}
-        />
+        /> */}
       </div>
       <button
         onClick={handleSubmit}
